@@ -5,3 +5,4 @@ package com.example.activityresultapidemo.constants
  */
 
 const val DATA = "data"
+const val DATA_THIRD_ACTIVITY = "dataThirdActivity"

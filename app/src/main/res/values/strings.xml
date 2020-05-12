@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">ActivityResultApiDemo</string>
     <string name="launch_second_activity">Launch second activity</string>
-    <string name="result_second_activity">Here data from second activity will be shown</string>
+    <string name="launch_third_activity">Launch third activity</string>
+    <string name="result_second_activity">Data from second activity will be shown here</string>
+    <string name="result_third_activity">Data from third activity will be shown here</string>
     <string name="hint_second_activity">What to send to first screen</string>
+    <string name="hint_third_activity">What to send to main screen</string>
+    <string name="try_pre_build">Now let\'s try some of the pre build contracts</string>
+    <string name="capture">Capture image</string>
+    <string name="send_to_first">Send to first page</string>
+    <string name="second_activity">"Second Activity"</string>
+    <string name="third_activity">"Third Activity"</string>
+    <string name="entered_nothing">"You did not enter anything"</string>
 </resources>
