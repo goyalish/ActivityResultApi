@@ -3,6 +3,7 @@ package com.example.activityresultapidemo
 import android.app.Activity.RESULT_OK
 import android.content.Context
 import android.content.Intent
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContract
 import com.example.activityresultapidemo.constants.DATA
 import com.example.activityresultapidemo.constants.DATA_THIRD_ACTIVITY
@@ -10,9 +11,10 @@ import com.example.activityresultapidemo.constants.DATA_THIRD_ACTIVITY
 /**
  * Created by NiteshGoyal on 12/05/20.
  */
-class SecondActivityContract : ActivityResultContract<Unit, String?>() {
+class SecondActivityContract : ActivityResultContract<String, String?>() {
 
-    override fun createIntent(context: Context, input: Unit?): Intent {
+    override fun createIntent(context: Context, input: String): Intent {
+        Toast.makeText(context, input, Toast.LENGTH_LONG).show()
         return Intent(context, SecondActivity::class.java)
     }
 

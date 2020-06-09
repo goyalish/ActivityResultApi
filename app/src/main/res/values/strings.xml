@@ -8,8 +8,10 @@
     <string name="hint_third_activity">What to send to main screen</string>
     <string name="try_pre_build">Now let\'s try some of the pre build contracts</string>
     <string name="capture">Capture image</string>
+    <string name="ask_permission">Ask Permission</string>
     <string name="send_to_first">Send to first page</string>
     <string name="second_activity">"Second Activity"</string>
     <string name="third_activity">"Third Activity"</string>
+    <string name="try_permission">"Ask permissions"</string>
     <string name="entered_nothing">"You did not enter anything"</string>
 </resources>

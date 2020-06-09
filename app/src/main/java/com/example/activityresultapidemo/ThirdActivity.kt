@@ -13,6 +13,7 @@ class ThirdActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_third)
         supportActionBar?.title = getString(R.string.third_activity)
+        supportFragmentManager.beginTransaction().add(R.id.fl_child, MyFragment()).commit()
         processData()
     }
 

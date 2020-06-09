@@ -56,7 +56,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dp20"
             android:text="@string/try_pre_build"
-            android:textSize="@dimen/sp20"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_launch_third_activity" />
@@ -73,14 +72,34 @@
 
         <ImageView
             android:id="@+id/iv_capture"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btn_capture"
-            android:layout_margin="@dimen/dp20"
             android:layout_width="match_parent"
+            android:layout_height="@dimen/dp200"
+            android:layout_margin="@dimen/dp20"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0"
-            android:layout_height="@dimen/dp200"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_capture"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/tv_premission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp20"
+            android:text="@string/try_permission"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_capture" />
+
+        <Button
+            android:id="@+id/btn_permission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp20"
+            android:text="@string/ask_permission"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_premission" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
